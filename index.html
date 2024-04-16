@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro projeto de HTML - DIO</title>
+</head>
+<body>
+    <h1 id="inicio">Primeira página de blog com HTML</h1>
+    <hr/>
+    <h2>Índice</h2>
+    <h3>História da Web</h3>
+    <ul>
+        <li><a href="#primeiros-computadores">Primeiros Computadores</a></li>
+        <li><a href="#surgimento">Surgimento da internet</a></li>
+        <li><a href="#grandes-nomes">Grandes Nomes</a></li>
+    </ul>
+    
+    <h3>O que são Clients</h3>
+    <ul>
+        <li><a href="#clientes">Clientes no linguajar Web</a></li>
+        <li><a href="#navegadores">Navegadores</a></li>
+        <li><a href="#apps-web">Aplicações Web</a></li>
+        <li><a href="#dispositivos-moveis">Dipositivos Móveis</a></li>
+    </ul>
+
+    <h3>O que são Servers</h3>
+    <ul>
+        <li><a href="#sobre-servidores">Sobre Servidores</a></li>
+        <li><a href="#hardwares-e-softwares">Hardwares e Softwares em Servidores</a></li>
+        <li><a href="#tipos-de-servidores">Tipos de Servidores</a></li>
+        <li><a href="#hospedagem-de-sites">Hospedagem de Sites</a></li>
+    </ul>
+
+    <h3>Linguagens de Programação</h3>
+    <ul>
+        <li><a href="#o-que-linguagens-prog">O que é</a></li>
+        <li><a href="#server-side">Server-side</a></li>
+        <li><a href="#client-side">Client-side</a></li>
+        <li><a href="#html-nao-linguagem-prog">HTML não é Linguagem de Programação</a></li>
+    </ul>
+
+    <h3>Introdução ao HTML na Prática</h3>
+    <ul>
+        <li><a href="#ferramentas-utilizadas">Ferramentas Utilizadas</a></li>
+        <li><a href="#inspecionar">Inspetor de Elementos</a></li>
+        <li><a href="#estrutura-basica-html">Estrutura Básica de HTML</a></li>
+        <li><a href="#falando-sobre-tags">Falando sobre Tags</a></li>
+        <li><a href="#atributos-das-tags">Atributos das Tags</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+    <br>
+    <h3><a href="#referencias">Referências</a></h3>
+    
+    <br>
+    <h2>História da Web</h2>
+
+    <h3 id="primeiros-computadores">Primeiros Computadores</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>No início, os comuptadores eram gigantescos, o "portátil" da época era conseguir arrastar o computador de uma sala para a outra. Com Bill Gates, Steve Jobs e outros grandes nomes, o comuptador passou a ser muito mais acessível para o público em geral.</p>
+
+    <h3 id="surgimento">Como Surgiu a Internet</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>O impulso de desenvolver a comunicação existe desde sempre. As primeiras sementes da web como conhecemos hoje foram plantadas com comunicações para fins militares, principalmente durante a Guerra Fria. Após vários avanços, Tim Berners-Lee criou o primeiro navegador, chamado WorldWideWeb.</p>
+
+    <h3 id="grandes-nomes">Grandes Nomes</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <ul>
+        <li><b>Grace Hopper</b>: Criadora da linguagem de alto nível Flow-Matic.</li>
+        <li><b>Joseph Carl Robert Licklider</b>: plantou a semente da comunicação entre dois pontos distintos através do computador</li>
+        <li><b>Robert E. Kahn</b>: Apresentou em público o primeiro e-mail e criou o protocolo TCP/IP.</li>
+        <li><b>Tim Berners-Lee</b>: Inventor do WWW; popularizou o HTTP e o HTML.</li>
+        <li><b>Marc Andreessen</b>: Tornou o navegador amigável, com mais recursos gráficos.</li>
+        <li><b>Bill Gates</b>: fundador da Microsoft, que criou o Internet Explorer. Popularizou muito o computador, e com isso, a internet.</li>
+        <li><b>Steve Jobs</b>: liderava a Apple quando esta popularizou o smartphone, o tornando muito mais amigável para o uso de pessoas comuns.</li>
+    </ul>
+
+    <br>
+    <h2>O que são Clients</h2>
+
+    <h3 id="clientes">Clientes no Linguajar Web</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>É o que consome alguma informação fornecida por um servidor. Quando alguém acessar meu site, o navegador que a pessoa está usando se torna o cliente do servidor que hospeda os dados do meu site. </p>
+
+    <h3 id="navegadores">Navegadores</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Programa instalado no computador que interpreta os arquivos mandados pelo servidor (HTML, CSS, JS...) Seguem padrões W3C, que é um conselho de definição dos comportamentos dos navegadores. Às vezes, um navegador pode ser incompatível com algum recurso HTML ou de outra tecnologia/linguagem. O site <a href="https://www.w3schools.com/tags/ref_html_browsersupport.asp" target="_blank">W3 Schools</a> detalha isso.</p>
+
+    <h3 id="apps-web">Aplicações Web</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+
+    <p>O que são? Se tratam de soluções que fazem a comunicação entre Client e Server para que o usuário possa aproveitar as funcionalidades, sem precisasr instalar um app no seu dispositivo; YouTube é uma aplicação web e um app ao mesmo tempo; mesma coisa Facebook, Instagram...</p>
+
+    <h3 id="dispositivos-moveis">Dispositivos Móveis</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Qual a importância de falar sobre isso? As pessoas cada vez mais acessam conteúdos na internet através do celular. A maioria acessa pelo celular, na verdade, por isso é importante priorizar (sim, mais importante que desktop) a exibição dos conteúdos em dispositivos mobile, para uma boa experiência de usuário.</p>
+
+    <br>
+    <h2>O que são Servers</h2>
+
+    <h3 id="sobre-servidores">Sobre Servidores</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>São máquinas físicas para armazenamento e distribuição de recursos importantes para as máquinas que "dependem" desse servidor, os Clients.
+    </p>
+
+    <h3 id="hardwares-e-softwares">Hardwares e Softwares em Servidores</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Muito semelhante a um computador. Quando ocorre uma requisição HTTP (o navegador client pede informações do servidor), o sistema operacional executa o programa de Servidor Web para a consulta e o envio da informação solicitada.</p>
+
+    <h3 id="tipos-de-servidores">Tipos de Servidores</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <ul>
+        <li>Arquivos</li>
+        <li>Segurança: um servidor de proxy é um servidor adicional que fica no meio do caminho entre o client e a internet. Ele estabelece regras para ver se o usuário pode ou não acessar determinado site. Um firewall protege contra acessos externos maliciosos, ele se encontra no mesmo espaço do proxy, mas atua em um cenário diferente.</li>
+        <li>Streaming</li>
+        <li>E-mail</li>
+        <li>Web</li>
+        <li>Database Server</li>
+        <li>Servidor DNS: o DNS traduz o nome em um IP específico (o endereço do site dentro da internet, baseado no nome dele).</li>
+    </ul>
+
+    <h3 id="">Hospedagem de sites</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Primeiro, contratar um servidor de hospedagem e registrar um domínio (meusite.com.br) para o meu site (a empresa contratada faz isso pra mim?). A conexão entre client e server envolve o FTP (File Transfer Protocol), que é uma conexão com o servidor para a transferência de arquivos.</p>
+
+    <br>
+    <h2>Linguagens de Programação</h2>
+
+    <h3 id="o-que-linguagens-prog">O que é</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Linguagem escrita e guiada por um conjunto de regras, com o objetivo de gerar softwares.</p>
+
+    <h3 id="server-side">Server-side</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Linguagens que são executadas no lado do servidor: PHP, C#, Ruby, JavaScript, Java... elas farão toda a lógica e processamento necessários para que o servidor sirva às requisições.</p>
+
+    <h3 id="client-side">Client-side</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Linguagens que rodam no cliente (na máquina do usuário), no que se trata de aplicações web. A grosso modo, o navegador roda HTML, CSS e JavaScript. Por que o JavaScript roda tanto no client quanto no server? Por causa do V8, que é o módulo de execução, o mecanismo que de fato roda a linguagem. No lado do server, o JS anda em conjunto com o Node.JS, já no client, é o navegador que atua como plataforma de execução (ambos com o V8 embutido).</p>
+
+    <h3 id="html-nao-linguagem-prog">HTML Não é Linguagem de Programação</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>É, na verdade, um arquivo de marcação do texto, que define as características visuais, como negrito, itálico, sublinhado, limites de parágrafos e outras funções específicas, aplicadas pra cada parte do conteúdo, dentro de limites. Este parágrafo, por exemplo, tem a tag "p" abrindo e fechando o seu texto. <b>Essa frase tem a tag "b" abrindo e fechando ela dentro do código.</b></p>
+
+    <br>
+    <h2>Introdução ao HTML na Prática</h2>
+
+    <h3 id="ferramentas-utilizadas">Ferramentas Utilizadas</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Vamos codar usando o Visual Studio Code (mais chamado de VS Code), plataforma open-source em que escrevo nesse exato momento, e é, de longe, a mais utilzada para codificar, ao menos até onde me diz minha experiência.</p>
+
+    <h3 id="inspecionar">Inspetor de Elementos</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Muito bom para estudo do HTML que estrutura páginas alheias. Dá até pra manipular os elementos exibidos através do console, mas não é nada que vai ser registrado no servidor, ou seja, vai aparecer só pra mim, e assim que eu atualizar a página, ela já volta a ser exibida como foi originalmente construída.</p>
+
+    <h3 id="estrutura-basica-html">Estrutura Básica do HTML</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Para usar o VS Code, é definida uma <b>pasta</b> (em algum local do computador) que contém um <b>arquivo</b> dentro dela. No caso do HTML, é padrão que o arquivo principal seja chamado de <b>"index.html"</b>. A estrutura básica do HTML começa com uma tag chamada <i>"html"</i>, seguida do <i>"head" (informações que serão carregadas antes de exibir a página)</i> e o <i>"body" (o que será, de fato, exibido para o usuário)</i>.</p>
+
+    <h3 id="falando-sobre-tags">Falando sobre Tags</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Elas definem o tipo de conteúdo que aparece entre seu início e fim. É um parágrafo? Uma quebra de linha? <b>Negrito?</b> <i>Itálico?</i> Um bloco de conteúdo?</p>
+    <p>A maioria das tags "abraça" um trecho de conteúdo para modificá-lo. Por exemplo, <b>se quero que esta frase esteja em negrito</b>, Eu abro a tag "b" antes do início da frase, e fecho essa tag ao final da frase.</p>
+    <p>Algumas tags, como o "input", fogem à essa regra, pois não precisam do fechamento. O input, no caso, faz surgir um elemento de entrada de dados, que pode ser de texto, número, etc.</p>
+
+    <h3 id="atributos-das-tags">Atributos das Tags</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>São propriedades que uma tag pode ter. É um detalhamento maior sobre o que a tag faz, e como ela vai se comportar, qual o escopo de atuação dela naquela situação específica...</p>
+
+    <p>Alguns exemplos:</p>
+    <ul>
+        <li><b>Atributos genéricos:</b></li>
+        <li>"id": um identificador dos elementos. Vai ser muito bom para quando o JavaScript entrar em jogo, já que ele consegue ler o HTML e fazer modificações baseado nas IDs.</li>
+        <li>"style": uma maneira de formatar o HTML, trazendo funções do CSS. Pode ser usado diretamente nos elementos</li>
+        <li>"class": um comando que padroniza elementos. Se eu quiser que todos os subtítulos da página sejam azuis, posso criar uma classe que define isso, e depois chamar essa classe quando escrevo os subtítulos.</li>
+        <li><b>Atributos específicos:</b></li>
+        <li>"number" e "text": são aplicados à tag <i>input</i>, e definem o tipo de entrada de dados no campo que a pessoa vai digitar como número e texto, respectivamente.</li>
+        <li>"src": define o local de origem de algo que quero exibir na minha página, como uma imagem, por exemplo. Ao escrever código no VS Code, posso salvar o arquivo na mesma pasta que estou codando, e definir o "src" (source) como o nome da imagem desejada.</li>
+    </ul>
+
+    <h3 id="textos">Textos</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <h4>Tags específicas para formatação de textos:</h4>
+    <ul>
+        <li>Tags "h": São tags de título em diferentes níveis. Quanto menor o número após o "h", maior a posição em hierarquia do título ou subtítulo em questão;</li>
+        <li>Tag "p": Serve para delimitar um parágrafo;</li>
+        <li>Tag "blockquote": Destaca um trecho de texto que é uma citação externa.</li>
+        <li><b>Tag "b": Negrito;</b></li>
+        <li><i>Tag "i": itálico;</i></li>
+        <li><mark>Tag "mark": efeito de marca-texto;</mark></li>
+        <li>Tag "sup": coloca um elemento um pouco acima do texto normal, como um número ao quadrado. (Exemplo: 2<sup>2</sup>);</li>
+    </ul>
+
+    <h3 id="listas">Listas Ordenadas e Não Ordenadas</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Existem basicamente dois tipos de listas no HTML: as ordenadas ("ol") e as não ordenadas ("ul"). Não dá pra adicionar conteúdo a elas diretamente, é preciso aplicar tags filhas ("li") para cada item da lista.</p>
+    <p><b>Lista ordenada:</b></p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <p><b>Lista não-ordenada:</b></p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h3 id="links">Links</h3>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <p>Links (tag "a"), no HTML, podem levar tanto para uma página externa (como de costume) quanto para algum ponto dentro da mesma página. Os dois destinos precisam do atributo "href" para serem definidos.</p>
+    <ol>
+        <li><b>Para páginas externas:</b> adicionar a URL desejada como o valor do atributo "href";</li>
+        <li><b>Para outro ponto da mesma página:</b> adicionar a id do elemento desejado ao atributo "href". A página vai fazer um scroll automático até o elemento referenciado.</li>
+    </ol>
+
+    <br>
+    <h2 id="referencias">Referências</h2>
+    <p><a href="https://www.youtube.com/watch?v=-FQP7hD-J6A" target="_blank">40 Tags HTML que Você Precisa Saber</a></p>
+    <p><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank">Hostinger: O que é HTML</a></p>
+    <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs: HTML</a></p>
+
+</body>
+</html>

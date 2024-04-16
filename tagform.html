@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag table</title>
+
+    <style>
+        table tr:nth-child(even) {
+            background-color: burlywood
+        }
+        table tr:hover td {
+            background-color: darkgray;
+        }
+        
+        table {
+            border: solid 1px black;
+        }
+
+        table thead th{
+            background-color: black;
+            color: white;
+        }
+
+        table tfoot td {
+            background-color: lightgray;
+            color: black;
+        }
+
+        table tbody tr:nth-hover (even) td {
+            background-color: #f1f1f1;
+        }
+
+        table tbody tr:nth-hover td{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <table summary="Idade dos alunos da DIO" width="250" align="center" cellspacing="0" cellpadding="4">
+        <tbody>
+            <caption>Tabela de idades dos alunos DIO.me</caption>
+            <thead>
+            <tr>
+                <th title="Nome completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+            </thead>
+            
+            <tr id="1">
+                <td>Brandon</td>
+                <td>24</td>
+            </tr>
+
+            <tr id="2">
+                <td>Camile</td>
+                <td>20</td>
+            </tr>
+
+            <tr id="3">
+                <td>Braiam</td>
+                <td>37</td>
+            </tr>
+
+            <tr id="4">
+                <td>Bianca</td>
+                <td>28</td>
+            </tr>
+
+            <tfoot>
+                <td>Total</td>
+                <td>4</td>
+            </tfoot>
+        </tbody>
+    </table>
+
+</body>
+</html>
