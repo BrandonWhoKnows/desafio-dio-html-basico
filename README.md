@@ -12,10 +12,6 @@ O projeto é uma página de blog que contém resumos de todas as aulas da forma�
 - Referências com links externos
 - Formatação de texto, incluindo negrito e itálico
 
-## Como Usar
-
-Com a minha experiência atual, o jeito que conheço é usar o VS Code (copiando o código de "index.html") + extensão Live Server (função "Go Live") para visualizar o conteúdo formatado em uma página web.
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou fazer um pull request.
