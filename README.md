@@ -14,7 +14,7 @@ O projeto é uma página de blog que contém resumos de todas as aulas da forma�
 
 ## Como Usar
 
-Para visualizar a página, basta abrir o arquivo `index.html` em qualquer navegador web.
+Com a minha experiência atual, o jeito que conheço é usar o VS Code (copiando o código de "index.html") + extensão Live Server (função "Go Live") para visualizar o conteúdo formatado em uma página web.
 
 ## Contribuições
 
